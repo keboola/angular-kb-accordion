@@ -1,6 +1,6 @@
 /**
  * angular-kb-accordion
- * @version v0.0.1 - 2014-01-13
+ * @version v0.0.1 - 2014-01-17
  * @link https://github.com/keboola/angular-kb-accordion
  * @license MIT License, http://www.opensource.org/licenses/MIT
  */(function() {
