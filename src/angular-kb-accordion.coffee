@@ -5,7 +5,7 @@ angular.module('kb.accordion', ['template/accordion/accordion-group.html'])
   $templateCache.put("template/accordion/accordion-group.html",
     """
     <div class="panel panel-default">
-    <div class="panel-heading" ng-click="isOpen = !isOpen">
+    <div class="panel-heading" ng-click="toggleOpen()">
     <span accordion-transclude="heading">
     <a>{{ heading }}</a>
     </span>
